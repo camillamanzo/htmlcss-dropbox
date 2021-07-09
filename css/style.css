@@ -28,22 +28,23 @@ body{
 
 
 header{
-    height: 60px;
-    vertical-align: middle;
-    background-color: aqua;
+    line-height: 55px;
     padding: 0 10px;
 }
 
 nav,
 li,
+.blue-button,
 .logo-img,
 #first-bb{
     display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
 }
 
 nav>li{
     list-style-type: none;
-    padding: 15px;
+    padding: px;
 }
 
 .blue-button{
