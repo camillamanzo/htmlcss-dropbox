@@ -102,6 +102,11 @@ i.fa-arrow-down{
             /* SECOND SECTION */
 
 
+
+li{
+    padding: 15px 0;
+}
+
 .container{
     width: 70%;
     margin: auto;
@@ -113,10 +118,39 @@ i.fa-arrow-down{
     margin-bottom: 50px;
 }
 
+.input-radio{
+    margin-left: 20px;
+}
+
 .column{
     width: 30%;
-    height: 800px;
+    height: 1000px;
     
-    border: 1px solid grey;
-    padding: 20px;
+    border: 1px solid rgb(182, 182, 182);
+    margin: 30px 16px;
+}
+
+.title-column{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.list-column{
+    padding: 30px;
+}
+
+.grey-text{
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.bigger-button{
+    width: 100%;
+    padding: 7px 0;
+    margin: 30px 0;
+}
+
+.fa-check{
+    color: blue;
 }
