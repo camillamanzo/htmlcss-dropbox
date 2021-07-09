@@ -62,6 +62,37 @@ nav>li{
 
 
 .lightblue-bg{
-    background-color: lightblue;
+    background-color: rgb(182, 210, 241);
     height: calc(100vh - 60px);
-}            
+}    
+
+.smaller{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.rotate-img{
+    transform: rotate(-90deg);
+    width: 40%;
+}
+
+.smaller>h1{
+    font-size: 4em;
+
+}
+
+.fit{
+    width: 34%;
+    padding: 50px 0;
+}
+
+i.fa-arrow-down{
+    width: 100px;
+}
+
+#second-bb{
+    font-size: 1em;
+    margin: 30px 0 15px;
+    padding: 10px 20px;
+}
