@@ -34,7 +34,7 @@ header{
 }
 
 nav,
-li,
+nav>li,
 .blue-button,
 .logo-img,
 #first-bb{
@@ -43,9 +43,8 @@ li,
     padding: 0 15px;
 }
 
-nav>li{
+li{
     list-style-type: none;
-    padding: px;
 }
 
 .blue-button{
@@ -81,7 +80,7 @@ nav>li{
     padding-top: 55px;
 }
 
-.smaller>h1{
+.heading>h1{
     font-size: 4em;
 }
 
@@ -103,4 +102,21 @@ i.fa-arrow-down{
             /* SECOND SECTION */
 
 
-            
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+}    
+
+.container h1{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.column{
+    width: 30%;
+    height: 800px;
+    
+    border: 1px solid grey;
+    padding: 20px;
+}
