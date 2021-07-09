@@ -28,6 +28,7 @@ body{
 
 
 header{
+    height: 60px;
     line-height: 55px;
     padding: 0 10px;
 }
@@ -56,3 +57,11 @@ nav>li{
 #first-bb{
     padding: 5px 10px;
 }
+
+            /* FIRST SECTION */
+
+
+.lightblue-bg{
+    background-color: lightblue;
+    height: calc(100vh - 60px);
+}            
