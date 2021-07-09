@@ -1,0 +1,57 @@
+            /* GENERAL INFOS */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+            /* HEADER */
+
+
+header{
+    height: 60px;
+    vertical-align: middle;
+    background-color: aqua;
+    padding: 0 10px;
+}
+
+nav,
+li,
+.logo-img,
+#first-bb{
+    display: inline-block;
+}
+
+nav>li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.blue-button{
+    background-color: rgb(55, 118, 255);
+    color: white;
+    border: none;
+}
+
+#first-bb{
+    padding: 5px 10px;
+}
