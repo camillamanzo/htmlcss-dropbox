@@ -244,6 +244,27 @@ border: 1px solid rgb(182, 182, 182);
     height: 400px;
 }
 
+.skyblue-bg{
+    height: 250px;
+    width: 100vw;
+    background-color: skyblue;
+}
+
+.skyblue-bg>.container{
+    margin-top: 0;
+    padding-top: 90px;
+}
+
+.skyblue-bg .white-button{
+    border: none;
+    width: 280px;
+}
+
+.purple-text{
+    color: rgb(75, 0, 50);
+    width: 35%;
+}
+
 #first-bb{
     padding: 5px 10px;
 }
