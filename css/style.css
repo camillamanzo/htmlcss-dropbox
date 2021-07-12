@@ -25,8 +25,7 @@ body{
     float: right;
 }
 
-            /* HEADER */
-
+        /* BODY */
 
 header{
     height: 60px;
@@ -46,6 +45,7 @@ nav>li,
 
 li{
     list-style-type: none;
+    padding: 15px 0;
 }
 
 .blue-button{
@@ -53,13 +53,6 @@ li{
     color: white;
     border: none;
 }
-
-#first-bb{
-    padding: 5px 10px;
-}
-
-            /* FIRST SECTION */
-
 
 .lightblue-bg{
     background-color: rgb(182, 210, 241);
@@ -90,27 +83,10 @@ i.fa-arrow-down{
     font-size: 3em;
 }
 
-#fit-img{
-    width: 70%;
-}
-
-#second-bb{
-    font-size: 1em;
-    margin: 30px 0 15px;
-    padding: 10px 20px;
-}
-
-            /* SECOND SECTION */
-
-
-
-li{
-    padding: 15px 0;
-}
-
 .column-section-hr,
 .bigger-button,
-.column{
+.column,
+.small-container-1>p{
     margin: 30px 0;
 }
 
@@ -136,7 +112,7 @@ border: 1px solid rgb(182, 182, 182);
 
 .column{
     width: 30%;
-    height: 1150px;
+    height: 1000px;
 }
 
 .u-column{
@@ -161,6 +137,16 @@ border: 1px solid rgb(182, 182, 182);
     width: 25%;
 }
 
+.u-column-inline{
+    height: 140px;
+    width: 69%;
+    display: inline-block;
+}
+
+.u-column-inline>h3{
+    padding: 20px 0;
+}   
+
 .grey-text{
     color: grey;
     padding: 15px 0 30px;
@@ -176,11 +162,127 @@ border: 1px solid rgb(182, 182, 182);
     color: blue;
 }
 
-#u-column-button{
-    width: 30%;
+.small-container-1{
+    width: 35%;
+    margin: 30px 0 0 50px;
+    font-size: 14px;
 }
 
-#u-column-inline{
-    width: 65%;
-    display: inline-block;
+.white-button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 15px;
 }
+
+.small-container-2{
+    width: 25%;
+    margin: 20px 0;
+}
+
+.central-small-container{
+    margin: 20px 126px;
+}
+
+.img-small-container-2{
+    width: 100%;
+}
+
+.second-row{
+    margin-top: 20px;
+}
+
+.last>h1{
+    margin-bottom: 20px;
+}
+
+.small-container-3{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+}
+
+.logo-images{
+    position: relative;
+}
+
+.small-container-3>img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    filter: brightness(1) saturate(1);
+}
+
+.margin-logos{
+    margin-top: 40px;
+}
+
+#first-bb{
+    padding: 5px 10px;
+}
+
+#fit-img{
+    width: 70%;
+}
+
+#second-bb{
+    font-size: 1em;
+    margin: 30px 0 15px;
+    padding: 10px 20px;
+}
+
+#u-column-button{
+    width: 30%;
+    margin: 0;
+}
+
+#img-partner{
+    width: 55%;
+}
+
+#designit{
+    background-color: rgb(137, 187, 162);
+    border: 10px solid rgb(182, 233, 207);
+}
+
+#arizona-uni{
+    background-color: rgb(75, 0, 50);
+    left: 200px;
+}
+
+#florida-uni{
+    background-color: rgb(17, 147, 190);
+    top: 200px;
+}
+
+#topps{
+    background-color: red;
+    left: 200px;
+    top: 200px;
+}
+
+#bicycle-world{
+    background-color: rgb(175, 2, 2);
+    right: 200px;
+}
+
+#hearst{
+    background-color: skyblue;
+    right: 0px;
+}
+
+#lonely-planet{
+    background-color: rgb(1, 1, 122);
+    right: 200px;
+    top: 200px;
+}
+
+#clear-channel{
+    background-color: yellow;
+    right: 0px;
+    top: 200px;
+}
+
+
+
+
+
