@@ -29,7 +29,7 @@ body{
 
 header{
     height: 60px;
-    line-height: 55px;
+    line-height: 60px;
     padding: 0 10px;
 }
 
@@ -46,6 +46,18 @@ nav>li,
 li{
     list-style-type: none;
     padding: 15px 0;
+}
+
+li .list-categories{
+    display: none;
+}
+
+nav>li:hover{
+    border-bottom: 2px solid black;
+}
+
+.show:active .list-categories{
+    display: block;
 }
 
 .blue-button{
@@ -93,9 +105,12 @@ i.fa-arrow-down{
 
 .horizontal-rule,
 .bigger-button,
-.column,
 .small-container-1>p{
     margin: 30px 0;
+}
+
+.column{
+    margin: 3% 0;
 }
 
 .column,
@@ -128,7 +143,7 @@ border: 1px solid rgb(223, 223, 223);
 }
 
 .column-margin{
-    margin: 30px 50px;
+    margin: 3% 5%;
 }
 
 .title-column{
@@ -201,7 +216,7 @@ border: 1px solid rgb(223, 223, 223);
 }
 
 .central-small-container{
-    margin: 20px 126px;
+    margin: 2% 12%;
 }
 
 .img-small-container-2{
@@ -209,7 +224,7 @@ border: 1px solid rgb(223, 223, 223);
 }
 
 .second-row{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 
@@ -226,13 +241,13 @@ border: 1px solid rgb(223, 223, 223);
 }
 
 .small-container-3{
-    width: 200px;
+    width: 15%;
     height: 200px;
 }
 
 .middle-container{
-    left: 400px;
-    width: 650px;
+    left: 30%;
+    width: 40%;
     height: 400px;
     padding: 30px;
     background-color: rgb(223, 223, 223);
@@ -384,7 +399,7 @@ footer ul{
 
 #arizona-uni{
     background-color: rgb(75, 0, 50);
-    left: 200px;
+    left: 15%;
 }
 
 #florida-uni{
@@ -395,15 +410,15 @@ footer ul{
 
 #topps{
     background-color: red;
-    left: 200px;
+    left: 15%;
     top: 200px;
     padding-top: 15px;
 }
 
 #bicycle-world{
     background-color: rgb(175, 2, 2);
-    right: 200px;
-    padding-top: 20px;
+    right: 15%;
+    padding-top: 25px;
 }
 
 #hearst{
@@ -414,7 +429,7 @@ footer ul{
 
 #lonely-planet{
     background-color: rgb(1, 1, 122);
-    right: 200px;
+    right: 15%;
     top: 200px;
     padding-top: 20px;
 }
