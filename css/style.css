@@ -63,17 +63,6 @@ li .list-categories{
     left: -30px;
 }
 
-nav>ul>li:hover{
-    border-bottom: 2px solid black;
-}
-
-nav>ul>li:hover .list-categories{
-    display: block;
-
-}
-
-
-
 .blue-button{
     background-color: rgb(55, 118, 255);
     color: white;
@@ -86,6 +75,15 @@ nav>ul>li:hover .list-categories{
     color: rgb(55, 118, 255);
     background-color: white;
     border: 1px solid rgb(55, 118, 255);
+}
+
+nav>ul>li:hover{
+    border-bottom: 2px solid black;
+}
+
+nav>ul>li:hover .list-categories{
+    display: block;
+
 }
 
 
@@ -225,8 +223,7 @@ border: 1px solid rgb(223, 223, 223);
     0% {
         transform: rotate(1turn);
     }
-}
-    
+}   
 
 .effect:hover,
 .column h3:hover{
@@ -336,6 +333,13 @@ border: 1px solid rgb(223, 223, 223);
     height: 400px;
 }
 
+/* HOVER */
+
+.small-container-3:hover,
+.middle-container:hover{
+    border: 10px groove white;
+}
+
             /* SKYBLUE CONTAINER */
 
 
@@ -368,9 +372,19 @@ border: 1px solid rgb(223, 223, 223);
     font-size: 2em;
 }
 
+.white-button:hover{
+    color: white;
+    background-color: blue;
+    filter: opacity(70%);
+}
+
 
             /* QUESTIONS SECTION */
 
+
+.questions{
+    height: fit-content;
+}
 
 .questions h4{
     display: inline-block;
@@ -381,6 +395,25 @@ border: 1px solid rgb(223, 223, 223);
     width: 100%;
 } 
 
+.no-show{
+    display: none;
+}
+
+/* HOVER */
+
+.questions-show:hover .no-show{
+    display: block;
+    background-color: white;
+    color: blue;
+    width: fit-content;
+    height: fit-content;
+    overflow: visible;
+}
+
+.no-show li:hover{
+    text-decoration: underline;
+}
+
 
             /* FOOTER SECTION */
 
@@ -388,6 +421,7 @@ border: 1px solid rgb(223, 223, 223);
 footer{
     margin-top: 100px;
     color: white;
+    position: relative;
 }  
 
 footer li{
@@ -419,13 +453,17 @@ footer ul{
 
 .language-choice{
     padding: 40px 0;
+    position: relative;
 }
 
 .languages{
     display: none;
+    position: absolute;
+    bottom: 10px;
+    height: 400px;
 }
 
-/* FOOTER */
+/* HOVER */
 
 footer li:hover{
     text-decoration: underline;
@@ -436,9 +474,10 @@ footer h3:hover{
 }
 
 .language-choice:hover .languages{
-    display: list-item;
+    display: block;
     background-color: white;
     color: black;
+    width: 150px;
 }
 
 
@@ -470,7 +509,6 @@ footer h3:hover{
 
 #designit{
     background-color: rgb(137, 187, 162);
-    border: 10px solid rgb(182, 233, 207);
     padding-top: 20px;
 }
 
