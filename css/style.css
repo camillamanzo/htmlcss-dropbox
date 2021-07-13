@@ -47,23 +47,25 @@ li{
     list-style-type: none;
     padding: 15px 0;
 }
-
+/* 
 li .list-categories{
     display: none;
-}
+} */
 
 nav>li:hover{
     border-bottom: 2px solid black;
-}
-
-.show:active .list-categories{
-    display: block;
 }
 
 .blue-button{
     background-color: rgb(55, 118, 255);
     color: white;
     border: none;
+}
+
+.blue-button:hover{
+    color: rgb(55, 118, 255);
+    background-color: white;
+    border: 1px solid rgb(55, 118, 255);
 }
 
 
@@ -74,6 +76,10 @@ nav>li:hover{
     background-color: rgb(182, 210, 241);
     height: calc(100vh - 60px);
 }    
+
+.fit-img{
+    width: 100%;
+}
 
 .heading{
     width: 80%;
@@ -188,6 +194,17 @@ border: 1px solid rgb(223, 223, 223);
 
 .fa-check{
     color: blue;
+}
+
+.effect:hover,
+.column h3:hover{
+    color: blue;
+    font-size: 18px;
+}
+
+.buy:hover{
+    color: red;
+    font-size: larger;
 }
 
 
